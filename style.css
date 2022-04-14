@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;0,900;1,800&family=Roboto+Slab&display=swap');
+
+#title{
+    background-color:#ff4c68;/*when you use same coloor nav bar and div then bg-color not work if color work then both color not supported*/
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1 {/*it use basical google font montserrat is font style but size is 900*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; /* black */
+    font-family: 3rem;
+    line-height: 1.5;
+  }
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight:900;
+  }
+  p{
+      color: #2b2121a9;
+      padding: 0% 0% 10% 0%;
+  }
+  i{
+      padding: 2% 8%;
+  }
+.navbar{
+    padding-bottom: 4.5rem;
+
+} 
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; /* black */
+    font-family: 3rem;
+    line-height: 2;
+
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-item:hover{
+    color: rgb(25, 44, 212);
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.title-image{
+width: 60%;
+transform: rotate(25deg);
+position: absolute;/* title-image class absolute which is not change like  "and transform :rotate(25deg) means title image 25 deg rotate"*/
+right: 20%;
+
+}
+.download-button{
+    margin: 8% 3% 3% 0%;
+}
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;/*z-index  is advance css whih is title-image div image 1 index down in features id*/
+}
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+.icon{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: rgb(25, 44, 212);
+}
+#testimonials{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding: 7% 15%;
+    text-align: center;
+}
+.colored-section{
+    background-color: #f10d6c;
+    color: #fff;
+}
+.testimonial-image{
+    width:10% ;
+    height: 10%;
+    border-radius:10%;/* its use basicaly rounded border*/
+
+}
+.testimonial-image{
+    border-radius: 50%;
+    margin:1%;
+}
+.press-logo{
+    align-items: center;
+    width: 21%;
+}
+.testimonial-text{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; /* black */
+    font-family: 3rem;
+    line-height: 1.5;
+
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.section-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; /* black */
+    font-family: 3rem;
+    line-height: 1.5;
+
+}
+#cta{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+
+}
+.icon1{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.icon1:hover{
+    color: rgb(25, 44, 212);
+    animation:iconanimation 5s linear infinite ;
+}
+@keyframes iconanimation{
+    0%{
+        
+    }
+}
+
+@media(max-width:1028px){/* its'also advance css use phone laptop every device responsive friendly */
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
